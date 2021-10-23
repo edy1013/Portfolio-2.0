@@ -33,7 +33,7 @@ const Contact = () => {
                         Let's discuss your project
                     </h1>
                     <div className="c-info">
-                        <div className="c-info-">
+                        <div className="c-info-item">
                             <img src={Phone} alt="" className="c-icon" />
                             +389 70 661194
                         </div>
