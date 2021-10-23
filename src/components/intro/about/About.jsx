@@ -1,6 +1,6 @@
 import "./about.css";
 import Award from "../../../img/award.png";
-
+import Me2 from "../../../img/me2.jpg"
 const about = () => {
     return (
         <div className="a">
@@ -9,31 +9,18 @@ const about = () => {
                     
                 </div>
                 <div className="a-card">
-                <img src="https://images.pexels.com/photos/3585047/pexels-photo-3585047.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="a-img"/>
+                <img src={Me2} alt="" className="a-img"/>
                 </div>
             </div>
             <div className="a-right">
                  <h1 className="a-title">About Me</h1>
                      <p className="a-sub">
-                        It is a long established fact that a reader will be distracted by the
-                        readable content.
+                        Ada is my Love.
                      </p>
                     <p className="a-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+                    I’m a self thoutgh FrontEnd web developer. I specialize in front end development, user experience, and creating identities and branding. Looking to work and learn , so contact me if you’d like to work together on your next project.
                      </p>
-                     <div className="a-award">
-                         <img src={Award} alt="" className="a-award-img" />
-                         <div className="a-award-texts">
-                            <h4 className="a-award-title">International Design Awards 2021</h4>
-                            <p className="a-award-desc">
-                                Nemo enim ipsam voluptatem quia voluptas sit aspernatur autodit
-                                 and fugit.
-                             </p>
-                         </div>
-                     </div>
+                    
                 </div>
             </div>
     )

@@ -1,7 +1,12 @@
 import "./intro.css"
-import Me from "../../img/me.png"
+import Me from "../../img/Dark.jpg"
+import Light from "../../img/Light.jpg"
+
+
 
 const Intro = () => {
+    
+    
     return (
         <div className="i">
             <div className="i-left">
