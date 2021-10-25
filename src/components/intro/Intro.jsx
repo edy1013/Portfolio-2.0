@@ -1,6 +1,6 @@
 import "./intro.css"
 import Me from "../../img/Dark.jpg"
-import Light from "../../img/Light.jpg"
+
 
 
 
