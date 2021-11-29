@@ -38,10 +38,6 @@ const Contact = () => {
                             +389 70 661194
                         </div>
                         <div className="c-info-item">
-                            <img src={Phone} alt="" className="c-icon" />
-                            <a src="https://github.com/edy1013">Github</a>
-                        </div>
-                        <div className="c-info-item">
                         <img className="c-icon" src={Email} alt="" />
                         edisan.ibisi@gmail.com
                          </div>
